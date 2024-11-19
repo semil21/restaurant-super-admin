@@ -9,6 +9,16 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
     icon: <Icon icon="lucide:home" width="24" height="24" />,
   },
   {
+    title: 'Category',
+    path: '/category',
+    icon: <Icon icon="fluent:food-16-regular" width="24" height="24" />,
+  },
+  {
+    title: 'Dish',
+    path: '/dish',
+    icon: <Icon icon="mdi:food-outline" width="24" height="24" />,
+  },
+  {
     title: 'Projects',
     path: '/projects',
     icon: <Icon icon="lucide:folder" width="24" height="24" />,
